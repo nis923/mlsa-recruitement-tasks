@@ -4,7 +4,7 @@
 int main()
   {
         int n,k,i,m,j = 0;
-char s,y;
+char s[k],y[n];
 
         printf("enter the length of word and number of letters ");
         scanf("%d %d",&n,&k);
@@ -13,11 +13,11 @@ char s,y;
         printf("enter your characters");
         scanf(" %s ",&s);
 
-for(int i=1;i < n;i++)
+for(int i=0;i < n;i++)
 {
-for(int m=1;m < k;m++)
+for(int m=0;m < k;m++)
 {
-if(s.substr[k]=y.substr[n])
+if(s.substr[o,k]=y.substr[m,m+i])
 
         j++;
 }
